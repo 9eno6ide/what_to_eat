@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+
+- int main( )  {
+      int n;
+      scanf("%d" ,&n);
+      switch(n)
+      {
+           case 1:
+               printf("Food item - Burger \n price-Rs129\n");
+           case 2:
+               printf("Food item - Pasta\n price-Rs179\n");
+           case 3:
+               printf("Food item - Pizza\n price-Rs239\n");
+           case 4:
+               printf("Food item - Sandwich\n price-Rs149\n");     
+           case 5:
+               printf("Food item - French Fries\n price-Rs99\n");
+               break;
+      }
+      return 0;
+      
+  }
+           
+        
